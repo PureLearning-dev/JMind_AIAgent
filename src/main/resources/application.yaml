@@ -7,3 +7,8 @@ spring:
       chat:
         options:
           model: deepseek-chat
+    zhipuai:
+      api-key: ${ZHI_PU_API_KEY}
+      chat:
+        options:
+          model: glm4.6
